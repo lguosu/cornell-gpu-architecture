@@ -1,0 +1,39 @@
+CUDA Device Query...
+There are 1 CUDA devices.
+
+CUDA Device #0
+Major revision number:         8
+Minor revision number:         6
+Name:                          NVIDIA A10G
+Total global memory:           23716495360
+Total shared memory per block: 49152
+Total registers per block:     65536
+Warp size:                     32
+Maximum memory pitch:          2147483647
+Maximum threads per block:     1024
+Maximum dimension 0 of block:  1024
+Maximum dimension 1 of block:  1024
+Maximum dimension 2 of block:  64
+Maximum dimension 0 of grid:   2147483647
+Maximum dimension 1 of grid:   65535
+Maximum dimension 2 of grid:   65535
+Clock rate:                    1710000
+Total constant memory:         65536
+Texture alignment:             512
+Concurrent copy and execution: Yes
+Number of multiprocessors:     80
+Maximum number of threads per SM: 1536
+
+Core Information per SM:
+FP32 (CUDA) cores:            128
+FP16 cores:                   256
+INT32 cores:                  128
+Tensor cores:                 4
+
+Total Cores across all SMs:
+Total FP32 cores:             10240
+Total FP16 cores:             20480
+Total INT32 cores:            10240
+Total Tensor cores:           320
+
+Kernel execution timeout:      No
